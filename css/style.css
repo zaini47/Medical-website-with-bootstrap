@@ -1,0 +1,92 @@
+:root{
+    --second: #B888F8;
+    --pri: rgb(252, 114, 76);
+    --textp: #737373;
+    --line: #E74040;
+    --social: #FC724D;
+    --darkbg: #26335D;
+}
+
+.second{
+    background-color: var(--second);
+}
+.second-text{
+    color: var(--second);
+}
+
+.darkbg{
+    background-color: var(--darkbg);
+}
+
+.prim{
+    background-color: var(--pri);
+}
+.prim-text{
+    color: var(--pri);
+}
+
+.social{
+    color: #FC724D;
+}
+
+.spanline{
+    border-bottom: var(--line) 2px solid;
+}
+.spanline-color{
+   color: var(--line) ;
+}
+
+.spanline{
+    background-color: var(--line);
+}
+ 
+
+
+.textp{
+    color: var(--textp);
+}
+
+header{
+    background-image: url("../images/bg/background\ sec-.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.set {
+    top: 40%;
+}
+
+.textheight{
+    height: fit-content;
+}
+
+@media (max-width: 425px){
+    main .smcenter{
+        justify-content: center !important;
+    }
+    .set{
+        top: 60% !important;
+        left: 20% !important;
+    }
+    .txtset{
+        text-align: var() !important;
+    }
+}
+@media (max-width: 768px){
+    .set {
+        top: 50%;
+        left: 10%;
+    }
+}
+@media (max-width: 375px){
+    .set {
+        left: 15% !important;
+        top: 54% !important;
+    }
+}
+@media (max-width: 320px){
+    .set {
+        left: 10% !important;
+        top: 48% !important;
+    }
+}
